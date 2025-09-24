@@ -130,6 +130,7 @@ export function Header({ currentPage = "home", onNavigate }: HeaderProps) {
             className="hidden xl:flex items-center gap-2 px-3 py-2 text-[#e0e0e0] hover:text-white transition-colors duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => onNavigate?.("waitlist")}
           >
             <div className="w-2 h-2 bg-[#00ff88] rounded-full animate-pulse" />
             <span className="font-['Figtree:Medium',_sans-serif] text-[12px] lg:text-[14px]">
@@ -142,6 +143,7 @@ export function Header({ currentPage = "home", onNavigate }: HeaderProps) {
             className="hidden sm:block relative overflow-hidden bg-gradient-to-r from-[#007bff] to-[#0056b3] hover:from-[#0056b3] hover:to-[#003d82] px-3 sm:px-4 lg:px-6 py-2 lg:py-3 rounded-xl font-['Figtree:Semibold',_sans-serif] text-white text-[12px] sm:text-[13px] lg:text-[14px] transition-all duration-300 shadow-lg shadow-[rgba(0,123,255,0.25)]"
             whileHover={{ scale: 1.05, y: -1 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => onNavigate?.("waitlist")}
           >
             {/* Animated background effect */}
             <motion.div
@@ -239,6 +241,7 @@ export function Header({ currentPage = "home", onNavigate }: HeaderProps) {
                   className="flex items-center gap-2 px-6 py-3 text-[#e0e0e0] hover:text-white transition-colors duration-300"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() => onNavigate?.("waitlist")}
                 >
                   <div className="w-2 h-2 bg-[#00ff88] rounded-full animate-pulse" />
                   <span className="font-['Figtree:Medium',_sans-serif] text-[16px]">
@@ -250,6 +253,7 @@ export function Header({ currentPage = "home", onNavigate }: HeaderProps) {
                   className="relative overflow-hidden bg-gradient-to-r from-[#007bff] to-[#0056b3] hover:from-[#0056b3] hover:to-[#003d82] px-8 py-4 rounded-xl font-['Figtree:Semibold',_sans-serif] text-white text-[16px] transition-all duration-300 shadow-lg shadow-[rgba(0,123,255,0.25)]"
                   whileHover={{ scale: 1.05, y: -1 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() => onNavigate?.("waitlist")}
                 >
                   <span className="relative z-10">Book Demo</span>
                 </motion.button>

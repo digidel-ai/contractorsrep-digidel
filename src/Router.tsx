@@ -15,7 +15,9 @@ import { ReviewOpportunitySection } from "./components/sections/ReviewOpportunit
 import { UpcomingFeaturesSection } from "./components/sections/UpcomingFeaturesSection";
 import { Footer } from "./components/layout/Footer";
 import Products from "./Products";
-import ProductPage from "./ProductPage";
+import { Suspense, lazy } from "react";
+import { LoadingSpinner } from "./components/shared/LoadingSpinner";
+const ProductPage = lazy(() => import("./ProductPage"));
 import Waitlist from "./Waitlist";
 import { ProductionTicker } from "./components/layout/ProductionTicker";
 
@@ -294,10 +296,12 @@ export default function Router() {
         return <Products onNavigate={handleNavigate} />;
       case "product":
         return currentProductId ? (
-          <ProductPage
-            productId={currentProductId}
-            onNavigate={handleNavigate}
-          />
+          <Suspense fallback={<div className="py-24 flex items-center justify-center"><LoadingSpinner variant='spinner' size='lg' /></div>}>
+            <ProductPage
+              productId={currentProductId}
+              onNavigate={handleNavigate}
+            />
+          </Suspense>
         ) : (
           <Products onNavigate={handleNavigate} />
         );

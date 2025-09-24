@@ -66,8 +66,8 @@ const products: Product[] = [
       "Durability": "Waterproof, scratch-resistant",
       "Customization": "Laser etching & color printing"
     },
-    image: nfcPlasticCardsImg,
-    gallery: [nfcPlasticCardsImg, nfcMetalCardImg, qrStickersImg],
+    image: nfcMetalCardImg,
+    gallery: [nfcMetalCardImg, nfcPlasticCardsImg, qrStickersImg],
     category: "NFC Cards",
     rating: 4.9,
     reviews: 127,
@@ -139,8 +139,8 @@ const products: Product[] = [
       "Durability": "Water-resistant, flexible",
       "Customization": "Digital printing & embossing"
     },
-    image: nfcMetalCardImg,
-    gallery: [nfcMetalCardImg, nfcPlasticCardsImg, reviewNfcStandImg],
+    image: nfcPlasticCardsImg,
+    gallery: [nfcPlasticCardsImg, nfcMetalCardImg, reviewNfcStandImg],
     category: "NFC Cards",
     rating: 4.7,
     reviews: 203,
@@ -259,8 +259,8 @@ const products: Product[] = [
 ];
 
 const relatedProducts = [
-  { id: "nfc-metal-card", name: "NFC Metal Card", price: 49.99, image: nfcPlasticCardsImg },
-  { id: "nfc-plastic-card", name: "NFC Plastic Card", price: 19.99, image: nfcMetalCardImg },
+  { id: "nfc-metal-card", name: "NFC Metal Card", price: 49.99, image: nfcMetalCardImg },
+  { id: "nfc-plastic-card", name: "NFC Plastic Card", price: 19.99, image: nfcPlasticCardsImg },
   { id: "google-review-stickers", name: "Google Review Stickers", price: 24.99, image: reviewStickersImg }
 ];
 
@@ -296,7 +296,6 @@ interface ProductPageProps {
 export default function ProductPage({ productId, onNavigate }: ProductPageProps) {
   const [quantity, setQuantity] = useState(1);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-  const [currentPage, setCurrentPage] = useState("products");
 
   const product = products.find(p => p.id === productId);
 
@@ -307,7 +306,7 @@ export default function ProductPage({ productId, onNavigate }: ProductPageProps)
   if (!product) {
     return (
       <div className="bg-[#020203] min-h-screen">
-        <Header currentPage={currentPage} onNavigate={onNavigate} />
+        <Header currentPage={"products"} onNavigate={onNavigate} />
         <div className="pt-24 pb-16 px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl font-bold text-white mb-4">Product Not Found</h1>
@@ -328,7 +327,7 @@ export default function ProductPage({ productId, onNavigate }: ProductPageProps)
 
   return (
     <div className="bg-[#020203] min-h-screen">
-      <Header currentPage={currentPage} onNavigate={onNavigate} />
+      <Header currentPage={"products"} onNavigate={onNavigate} />
       
       {/* Breadcrumb */}
       <section className="pt-24 pb-6 sm:pb-8 px-4 sm:px-6">
