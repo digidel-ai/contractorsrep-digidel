@@ -60,5 +60,8 @@
           "build": "vite build",
           "preview": "vite preview",
           "start": "vite preview"
+      },
+      "engines": {
+          "node": ">=18.0.0"
       }
   }
