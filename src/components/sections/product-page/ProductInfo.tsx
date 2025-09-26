@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from "motion/react";
 import { Star } from "lucide-react";
 import { Badge } from "../../ui/badge";
-import { Product } from "../../../data/products.ts";
+import { Product } from "@/data/products.ts";
 
 interface ProductInfoProps {
   product: Product;

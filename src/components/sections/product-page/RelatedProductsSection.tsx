@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "motion/react";
-import { relatedProducts } from "../../../data/relatedProducts.ts";
-import { Product } from "../../../data/products.ts";
+import { relatedProducts } from "@/data/relatedProducts.ts";
+import { Product } from "@/data/products.ts";
 
 interface RelatedProductsSectionProps {
   productId: string;

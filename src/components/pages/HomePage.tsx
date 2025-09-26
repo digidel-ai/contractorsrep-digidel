@@ -1,10 +1,10 @@
 import React from 'react';
-import { HeroSection } from "../sections/HeroSection";
-import { WhyTopContractorsSection } from "../sections/WhyTopContractorsSection";
-import { HowItWorksSection } from "../sections/HowItWorksSection";
-import { ProductCarouselSection } from "../sections/ProductCarouselSection";
-import { FairLeadAttributionSection } from "../sections/FairLeadAttributionSection";
-import { SectionWrapper } from "../shared/SectionWrapper";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { WhyTopContractorsSection } from "@/components/sections/WhyTopContractorsSection";
+import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
+import { ProductCarouselSection } from "@/components/sections/ProductCarouselSection";
+import { FairLeadAttributionSection } from "@/components/sections/FairLeadAttributionSection";
+import { SectionWrapper } from "@/components/shared/SectionWrapper";
 
 interface HomePageProps {
   onNavigate: (pageId: string, productId?: string) => void;

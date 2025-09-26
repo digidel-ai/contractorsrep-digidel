@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import { motion } from "motion/react";
-import { Product } from "../../../data/products.ts";
+import { Product } from "@/data/products.ts";
 
 interface ProductImageGalleryProps {
   product: Product;

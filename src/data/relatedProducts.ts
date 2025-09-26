@@ -1,6 +1,6 @@
-import nfcMetalCardImg from "../assets/34fb5c340c0891aac50c44bd2d7de7f944db7ef0.png";
-import nfcPlasticCardsImg from "../assets/b6f9b1d8a2fc4a90fff2f471b25930ed7bd3b561.png";
-import reviewStickersImg from "../assets/4a75d08f97892396001244cfcdbd42416d29580b.png";
+import nfcMetalCardImg from "@/assets/34fb5c340c0891aac50c44bd2d7de7f944db7ef0.png";
+import nfcPlasticCardsImg from "@/assets/b6f9b1d8a2fc4a90fff2f471b25930ed7bd3b561.png";
+import reviewStickersImg from "@/assets/4a75d08f97892396001244cfcdbd42416d29580b.png";
 
 interface RelatedProduct {
   id: string;

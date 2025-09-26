@@ -1,10 +1,10 @@
 import React from 'react';
-import { FeaturesHeroSection } from "../sections/FeaturesHeroSection";
-import { BuildCredibilitySection } from "../sections/BuildCredibilitySection";
-import { BrandConsistencySection } from "../sections/BrandConsistencySection";
-import { ReviewOpportunitySection } from "../sections/ReviewOpportunitySection";
-import { UpcomingFeaturesSection } from "../sections/UpcomingFeaturesSection";
-import { SectionWrapper } from "../shared/SectionWrapper";
+import { FeaturesHeroSection } from "@/components/sections/FeaturesHeroSection";
+import { BuildCredibilitySection } from "@/components/sections/BuildCredibilitySection";
+import { BrandConsistencySection } from "@/components/sections/BrandConsistencySection";
+import { ReviewOpportunitySection } from "@/components/sections/ReviewOpportunitySection";
+import { UpcomingFeaturesSection } from "@/components/sections/UpcomingFeaturesSection";
+import { SectionWrapper } from "@/components/shared/SectionWrapper";
 
 function FeaturesPage() {
   return (

@@ -6,9 +6,9 @@ import { Header } from "./components/layout/Header";
 import { Footer } from "./components/layout/Footer";
 import { Button } from "./components/ui/button";
 import { ArrowLeft, ChevronRight } from "lucide-react"; // Only these two remain for the breadcrumbs and not found page
-import { Product, products } from "../data/products.ts";
-import { relatedProducts } from "../data/relatedProducts.ts";
-import { testimonials } from "../data/testimonials.ts";
+import { Product, products } from "@/data/products.ts";
+import { relatedProducts } from "@/data/relatedProducts.ts";
+import { testimonials } from "@/data/testimonials.ts";
 import { ProductImageGallery } from "./components/sections/product-page/ProductImageGallery";
 import { ProductInfo } from "./components/sections/product-page/ProductInfo";
 import { ProductFeatures } from "./components/sections/product-page/ProductFeatures";
