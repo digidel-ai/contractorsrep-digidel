@@ -1,5 +1,5 @@
-import imgGenerateAnImageOfRoofingContractorWearingCapAndPoloTShirtStandingAndHappyFace from "figma:asset/c0a43bec4e30bd43870af1fe29af2234383ab05c.png";
-import imgFrame100001559411 from "figma:asset/19dab61f9a80f86a4a7abfaed02b957584f0918a.png";
+import imgGenerateAnImageOfRoofingContractorWearingCapAndPoloTShirtStandingAndHappyFace from "@/assets/c0a43bec4e30bd43870af1fe29af2234383ab05c.png";
+import imgFrame100001559411 from "@/assets/19dab61f9a80f86a4a7abfaed02b957584f0918a.png";
 import { imgGenerateAnImageOfRoofingContractorWearingCapAndPoloTShirtStandingAndHappyFace1 } from "./svg-1udkp";
 
 function Frame1000015596() {

@@ -1,8 +1,8 @@
-import imgIPhone14Pro31 from "figma:asset/9498a9aa432ab15ef5c03a6e188e10559c6011e0.png";
-import imgImage from "figma:asset/541fc283baf36ee53bfe8dbb36a820b4c3ee3561.png";
-import imgRecapDevice59195646FigmaSiteDemoProfile311 from "figma:asset/7165ed5df6ee84caee824c88d7ebd04c40bf9eb2.png";
-import imgGroup100001102421 from "figma:asset/8912769fac2a9912a07b1b7b64fe1abb112de2dc.png";
-import imgGroup100001102422 from "figma:asset/2ca5456cbd9d21ddba2d736dbab8c4b874453464.png";
+import imgIPhone14Pro31 from "@/assets/9498a9aa432ab15ef5c03a6e188e10559c6011e0.png";
+import imgImage from "@/assets/541fc283baf36ee53bfe8dbb36a820b4c3ee3561.png";
+import imgRecapDevice59195646FigmaSiteDemoProfile311 from "@/assets/7165ed5df6ee84caee824c88d7ebd04c40bf9eb2.png";
+import imgGroup100001102421 from "@/assets/8912769fac2a9912a07b1b7b64fe1abb112de2dc.png";
+import imgGroup100001102422 from "@/assets/2ca5456cbd9d21ddba2d736dbab8c4b874453464.png";
 
 function Content() {
   return (

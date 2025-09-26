@@ -2,9 +2,9 @@
 
 import { motion } from "motion/react";
 import svgPaths from "../../imports/svg-gipu0vdokr";
-import imgMockrocketCapture41 from "figma:asset/792d5334f8eb1181f768efed8219c88033211dc2.png";
-import imgEllipse30 from "figma:asset/222372149199408681118fee3923c283ddef5880.png";
-import imgRectangle from "figma:asset/8dbc5e85b4d118407bf9987c1d7b5ba4d3481f12.png";
+import imgMockrocketCapture41 from "@/assets/792d5334f8eb1181f768efed8219c88033211dc2.png";
+import imgEllipse30 from "@/assets/222372149199408681118fee3923c283ddef5880.png";
+import imgRectangle from "@/assets/8dbc5e85b4d118407bf9987c1d7b5ba4d3481f12.png";
 
 function CheckIcon() {
   return (

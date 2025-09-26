@@ -3,9 +3,9 @@
 import { motion, useInView, AnimatePresence } from "motion/react";
 import { useRef, useState, useEffect } from "react";
 import { staggerChildren, fadeInLeft, fadeInRight, fadeInUp } from "../../utils/animations";
-import imgGroup10000109811 from "figma:asset/7bc0e0b06c8a7b1e754fc34be87c90dc8b31bbe6.png";
-import imgGroup10000109813 from "figma:asset/6df1f95e6241bf1fcdc11e22b201396bba19bf39.png";
-import imgGroup10000109812 from "figma:asset/afe39ee5d93dc4369793bcf173f890f7d2d9b8c4.png";
+import imgGroup10000109811 from "@/assets/7bc0e0b06c8a7b1e754fc34be87c90dc8b31bbe6.png";
+import imgGroup10000109813 from "@/assets/6df1f95e6241bf1fcdc11e22b201396bba19bf39.png";
+import imgGroup10000109812 from "@/assets/afe39ee5d93dc4369793bcf173f890f7d2d9b8c4.png";
 
 export function FairLeadAttributionSection() {
   const ref = useRef(null);

@@ -1,9 +1,9 @@
-import imgImage from "figma:asset/97207fb373898ac94f119bce57d1fa8731b1411e.png";
-import imgImage1 from "figma:asset/0930d4edd7562b7b8f10e4cd51567d839e105a95.png";
-import imgImage2 from "figma:asset/b7136c60eb0b4b737be2c84f8c9812be5e854069.png";
-import imgImage3 from "figma:asset/80882817c01b4c6e5c7f42b79a90f445305013de.png";
-import imgImage4 from "figma:asset/40ab0cb9eb7a0040f5ba1bff9a9ca4a60d1b0493.png";
-import imgImage5 from "figma:asset/69a16cc0d2f6df8d447d2b212ac56b8b1685f346.png";
+import imgImage from "@/assets/97207fb373898ac94f119bce57d1fa8731b1411e.png";
+import imgImage1 from "@/assets/0930d4edd7562b7b8f10e4cd51567d839e105a95.png";
+import imgImage2 from "@/assets/b7136c60eb0b4b737be2c84f8c9812be5e854069.png";
+import imgImage3 from "@/assets/80882817c01b4c6e5c7f42b79a90f445305013de.png";
+import imgImage4 from "@/assets/40ab0cb9eb7a0040f5ba1bff9a9ca4a60d1b0493.png";
+import imgImage5 from "@/assets/69a16cc0d2f6df8d447d2b212ac56b8b1685f346.png";
 
 function FeatureInfo() {
   return (

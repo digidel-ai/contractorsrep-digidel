@@ -9,23 +9,23 @@ import {
   fadeInRight,
 } from "../../utils/animations";
 import svgPaths from "../../imports/svg-zgipksbc8y";
-import imgScreenReplaceHere1 from "figma:asset/c973c2eb85f796a06fe58c9b800779d4aae0cf2e.png";
-import imgIStock469932909 from "figma:asset/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
-import imgLens from "figma:asset/67830763f82fdf85511f01e79f2ade1854493d70.png";
-import imgImage from "figma:asset/98ce7e5c25f4caff1dfd2939d6feaf68f7c16386.png";
-import imgGroup10000110241 from "figma:asset/31543888ab33967186dbb5a71fc00b09b0d9acf2.png";
-import imgImage1 from "figma:asset/30e7801ffd1cca50a90c349330f79cc5698aa708.png";
-import imgAiPoweredBusinessCardScanner1 from "figma:asset/bffdeff540055c4a028fc11c46dd92764fdb9d82.png";
-import imgImage2 from "figma:asset/1c2613a4e4946cb4a836c81a3ddc75d6538bacf6.png";
-import imgIPhone14Pro71 from "figma:asset/96337ca4ffd69cb563252fedc336d2e8d0f2f91c.png";
-import imgImage3 from "figma:asset/efeb3ba2a8ea6a94d56f01d45d211994495ace61.png";
-import imgCustomizeYourProfile from "figma:asset/541fc283baf36ee53bfe8dbb36a820b4c3ee3561.png";
-import imgCustomizeYourProfile1 from "figma:asset/2ca5456cbd9d21ddba2d736dbab8c4b874453464.png";
-import imgCustomizeYourProfile2 from "figma:asset/119ce05ccdf3e8a8c87fd43c594082c5d3733a3a.png";
-import imgImage4 from "figma:asset/a840d89415f3f8b0a258e89fa8df80fc8461f8d4.png";
-import imgIPhone14Pro31 from "figma:asset/9498a9aa432ab15ef5c03a6e188e10559c6011e0.png";
-import imgRecapDevice59195646FigmaSiteDemoProfile311 from "figma:asset/7165ed5df6ee84caee824c88d7ebd04c40bf9eb2.png";
-import imgGroup100001102421 from "figma:asset/8912769fac2a9912a07b1b7b64fe1abb112de2dc.png";
+import imgScreenReplaceHere1 from "@/assets/c973c2eb85f796a06fe58c9b800779d4aae0cf2e.png";
+import imgIStock469932909 from "@/assets/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
+import imgLens from "@/assets/67830763f82fdf85511f01e79f2ade1854493d70.png";
+import imgImage from "@/assets/98ce7e5c25f4caff1dfd2939d6feaf68f7c16386.png";
+import imgGroup10000110241 from "@/assets/31543888ab33967186dbb5a71fc00b09b0d9acf2.png";
+import imgImage1 from "@/assets/30e7801ffd1cca50a90c349330f79cc5698aa708.png";
+import imgAiPoweredBusinessCardScanner1 from "@/assets/bffdeff540055c4a028fc11c46dd92764fdb9d82.png";
+import imgImage2 from "@/assets/1c2613a4e4946cb4a836c81a3ddc75d6538bacf6.png";
+import imgIPhone14Pro71 from "@/assets/96337ca4ffd69cb563252fedc336d2e8d0f2f91c.png";
+import imgImage3 from "@/assets/efeb3ba2a8ea6a94d56f01d45d211994495ace61.png";
+import imgCustomizeYourProfile from "@/assets/541fc283baf36ee53bfe8dbb36a820b4c3ee3561.png";
+import imgCustomizeYourProfile1 from "@/assets/2ca5456cbd9d21ddba2d736dbab8c4b874453464.png";
+import imgCustomizeYourProfile2 from "@/assets/119ce05ccdf3e8a8c87fd43c594082c5d3733a3a.png";
+import imgImage4 from "@/assets/a840d89415f3f8b0a258e89fa8df80fc8461f8d4.png";
+import imgIPhone14Pro31 from "@/assets/9498a9aa432ab15ef5c03a6e188e10559c6011e0.png";
+import imgRecapDevice59195646FigmaSiteDemoProfile311 from "@/assets/7165ed5df6ee84caee824c88d7ebd04c40bf9eb2.png";
+import imgGroup100001102421 from "@/assets/8912769fac2a9912a07b1b7b64fe1abb112de2dc.png";
 import { imgScreenReplaceHere } from "../../imports/svg-87gjn";
 
 export function WhyTopContractorsSection() {

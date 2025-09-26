@@ -15,8 +15,8 @@ import {
   Users,
   Zap,
 } from "lucide-react";
-import imgTapOnMockup from "figma:asset/1fcfa02f1e44091bd03898996b14dce413c48ba3.png";
-import rogueMoveDigitalLogo from "figma:asset/0f7035222fb107f816fd4cabb6a188d5f4785405.png";
+import imgTapOnMockup from "@/assets/1fcfa02f1e44091bd03898996b14dce413c48ba3.png";
+import rogueMoveDigitalLogo from "@/assets/0f7035222fb107f816fd4cabb6a188d5f4785405.png";
 
 export function HeroSection({ onNavigate }: { onNavigate?: (pageId: string) => void }) {
   return (

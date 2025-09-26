@@ -1,5 +1,5 @@
 import svgPaths from "./svg-8exh5olfnm";
-import imgMetalCardsBackgrounds from "figma:asset/2031e7701f8a763b6a912013855c78d09c03751c.png";
+import imgMetalCardsBackgrounds from "@/assets/2031e7701f8a763b6a912013855c78d09c03751c.png";
 
 function Frame1000015292() {
   return (

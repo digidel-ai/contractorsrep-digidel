@@ -3,7 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { staggerChildren, fadeInUp } from "../../utils/animations";
-import rogueMoveDigitalLogo from "figma:asset/0f7035222fb107f816fd4cabb6a188d5f4785405.png";
+import rogueMoveDigitalLogo from "@/assets/0f7035222fb107f816fd4cabb6a188d5f4785405.png";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {

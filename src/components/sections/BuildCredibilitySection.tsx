@@ -2,15 +2,15 @@
 
 import { motion } from 'motion/react';
 import svgPaths from "../../imports/svg-89j87e78f4";
-import imgImage from "figma:asset/97207fb373898ac94f119bce57d1fa8731b1411e.png";
-import imgImage1 from "figma:asset/0930d4edd7562b7b8f10e4cd51567d839e105a95.png";
-import imgImage2 from "figma:asset/b7136c60eb0b4b737be2c84f8c9812be5e854069.png";
-import imgImage3 from "figma:asset/80882817c01b4c6e5c7f42b79a90f445305013de.png";
-import imgImage4 from "figma:asset/40ab0cb9eb7a0040f5ba1bff9a9ca4a60d1b0493.png";
-import imgImage5 from "figma:asset/69a16cc0d2f6df8d447d2b212ac56b8b1685f346.png";
-import imgIStock469932909 from "figma:asset/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
-import imgLens from "figma:asset/4bdb0d0a8cd77b90cac321ec2741c7d4169ff2f2.png";
-import imgLens1 from "figma:asset/67830763f82fdf85511f01e79f2ade1854493d70.png";
+import imgImage from "@/assets/97207fb373898ac94f119bce57d1fa8731b1411e.png";
+import imgImage1 from "@/assets/0930d4edd7562b7b8f10e4cd51567d839e105a95.png";
+import imgImage2 from "@/assets/b7136c60eb0b4b737be2c84f8c9812be5e854069.png";
+import imgImage3 from "@/assets/80882817c01b4c6e5c7f42b79a90f445305013de.png";
+import imgImage4 from "@/assets/40ab0cb9eb7a0040f5ba1bff9a9ca4a60d1b0493.png";
+import imgImage5 from "@/assets/69a16cc0d2f6df8d447d2b212ac56b8b1685f346.png";
+import imgIStock469932909 from "@/assets/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
+import imgLens from "@/assets/4bdb0d0a8cd77b90cac321ec2741c7d4169ff2f2.png";
+import imgLens1 from "@/assets/67830763f82fdf85511f01e79f2ade1854493d70.png";
 import { imgScreenReplaceHere, imgScreenReplaceHere2 } from "../../imports/svg-lcm29";
 
 function HeaderSection() {

@@ -1,13 +1,13 @@
 import svgPaths from "./svg-89j87e78f4";
-import imgCustomizeYourProfile from "figma:asset/119ce05ccdf3e8a8c87fd43c594082c5d3733a3a.png";
-import imgPortfolioManagement1 from "figma:asset/20d7187d551662fe5ca0122e00106baabbde5286.png";
-import imgPortfolioManagement2 from "figma:asset/049eb5035f09a92ded8b58b4f4ee3f7432a96537.png";
-import imgScreenReplaceHere1 from "figma:asset/5941e52236247a7f745f865a1fe0788272d652bd.png";
-import imgIStock469932909 from "figma:asset/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
-import imgLens from "figma:asset/4bdb0d0a8cd77b90cac321ec2741c7d4169ff2f2.png";
-import imgImage from "figma:asset/40ab0cb9eb7a0040f5ba1bff9a9ca4a60d1b0493.png";
-import imgScreenReplaceHere3 from "figma:asset/c973c2eb85f796a06fe58c9b800779d4aae0cf2e.png";
-import imgLens1 from "figma:asset/67830763f82fdf85511f01e79f2ade1854493d70.png";
+import imgCustomizeYourProfile from "@/assets/119ce05ccdf3e8a8c87fd43c594082c5d3733a3a.png";
+import imgPortfolioManagement1 from "@/assets/20d7187d551662fe5ca0122e00106baabbde5286.png";
+import imgPortfolioManagement2 from "@/assets/049eb5035f09a92ded8b58b4f4ee3f7432a96537.png";
+import imgScreenReplaceHere1 from "@/assets/5941e52236247a7f745f865a1fe0788272d652bd.png";
+import imgIStock469932909 from "@/assets/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
+import imgLens from "@/assets/4bdb0d0a8cd77b90cac321ec2741c7d4169ff2f2.png";
+import imgImage from "@/assets/40ab0cb9eb7a0040f5ba1bff9a9ca4a60d1b0493.png";
+import imgScreenReplaceHere3 from "@/assets/c973c2eb85f796a06fe58c9b800779d4aae0cf2e.png";
+import imgLens1 from "@/assets/67830763f82fdf85511f01e79f2ade1854493d70.png";
 import { imgScreenReplaceHere, imgScreenReplaceHere2 } from "./svg-lcm29";
 
 function HeaderSection() {

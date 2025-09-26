@@ -2,9 +2,9 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import imgScreenReplaceHere1 from "figma:asset/c973c2eb85f796a06fe58c9b800779d4aae0cf2e.png";
-import imgIStock469932909 from "figma:asset/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
-import imgLens from "figma:asset/67830763f82fdf85511f01e79f2ade1854493d70.png";
+import imgScreenReplaceHere1 from "@/assets/c973c2eb85f796a06fe58c9b800779d4aae0cf2e.png";
+import imgIStock469932909 from "@/assets/0163f5904cd32b7a4ad66e8b47b0489ce42f5c2d.png";
+import imgLens from "@/assets/67830763f82fdf85511f01e79f2ade1854493d70.png";
 import { imgScreenReplaceHere } from "../../imports/svg-8e0g0";
 
 export function AnimatedIPhone({ size = "default" }: { size?: "small" | "default" | "large" }) {

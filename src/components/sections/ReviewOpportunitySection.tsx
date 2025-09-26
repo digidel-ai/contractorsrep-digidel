@@ -2,9 +2,9 @@
 
 import { motion } from 'motion/react';
 import svgPaths from "../../imports/svg-30rn9dn68u";
-import imgQrCodeGenerator1 from "figma:asset/c2e24c41ac649157f17daed72235f6a6cefd822e.png";
-import imgBuiltInReviewScripts1 from "figma:asset/dcfefc4d08bb5f665eb8f906eee27e9ee0740416.png";
-import imgNfcSyncWithFieldTools1 from "figma:asset/ff0cc648e04263050dbb24c069e09d99b03af98e.png";
+import imgQrCodeGenerator1 from "@/assets/c2e24c41ac649157f17daed72235f6a6cefd822e.png";
+import imgBuiltInReviewScripts1 from "@/assets/dcfefc4d08bb5f665eb8f906eee27e9ee0740416.png";
+import imgNfcSyncWithFieldTools1 from "@/assets/ff0cc648e04263050dbb24c069e09d99b03af98e.png";
 
 function QrCodeGeneratorHeader() {
   return (

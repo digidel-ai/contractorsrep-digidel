@@ -1,5 +1,5 @@
 import svgPaths from "./svg-x2kuzqqt4h";
-import imgComponent22 from "figma:asset/0269b1cc3c154680cc07ffe8aadcf4ef93cc2af0.png";
+import imgComponent22 from "@/assets/0269b1cc3c154680cc07ffe8aadcf4ef93cc2af0.png";
 
 function PutLandscapeDesignHere() {
   return (

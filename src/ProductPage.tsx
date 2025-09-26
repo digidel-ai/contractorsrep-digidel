@@ -8,12 +8,12 @@ import { Button } from "./components/ui/button";
 import { Badge } from "./components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
 import { Star, ShoppingCart, ArrowLeft, Check, Shield, Truck, Clock, Share2, Heart, Zap, Users, ChevronRight } from "lucide-react";
-import nfcPlasticCardsImg from 'figma:asset/b6f9b1d8a2fc4a90fff2f471b25930ed7bd3b561.png';
-import nfcMetalCardImg from 'figma:asset/34fb5c340c0891aac50c44bd2d7de7f944db7ef0.png';
-import qrStickersImg from 'figma:asset/f3b60b27c518ba0b5f3fe5ab34f8d9e8b7e13a43.png';
-import reviewNfcStandImg from 'figma:asset/dcedbe742ec442cd26cb5901fa7a7ef9dd0eb672.png';
-import reviewStickersImg from 'figma:asset/4a75d08f97892396001244cfcdbd42416d29580b.png';
-import jobSiteStandImg from 'figma:asset/82a8b93c0fcd6d1d360d49c8b1c1a83f07f73908.png';
+import nfcPlasticCardsImg from '@/assets/b6f9b1d8a2fc4a90fff2f471b25930ed7bd3b561.png';
+import nfcMetalCardImg from '@/assets/34fb5c340c0891aac50c44bd2d7de7f944db7ef0.png';
+import qrStickersImg from '@/assets/f3b60b27c518ba0b5f3fe5ab34f8d9e8b7e13a43.png';
+import reviewNfcStandImg from '@/assets/dcedbe742ec442cd26cb5901fa7a7ef9dd0eb672.png';
+import reviewStickersImg from '@/assets/4a75d08f97892396001244cfcdbd42416d29580b.png';
+import jobSiteStandImg from '@/assets/82a8b93c0fcd6d1d360d49c8b1c1a83f07f73908.png';
 
 interface Product {
   id: string;
