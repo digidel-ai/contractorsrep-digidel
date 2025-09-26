@@ -7,7 +7,7 @@ import { LoadingSpinner } from "./components/shared/LoadingSpinner";
 const ProductPage = lazy(() => import("./ProductPage"));
 import Waitlist from "./Waitlist";
 import { ProductionTicker } from "./components/layout/ProductionTicker";
-import { getRouteFromPath, getPathFromRoute } from "./utils/router";
+import { getRouteFromPath, getPathFromRoute } from "./utils/router.ts";
 import { HomePage } from "./components/pages/HomePage";
 import { FeaturesPage } from "./components/pages/FeaturesPage";
 import { ComingSoonPage } from "./components/pages/ComingSoonPage";

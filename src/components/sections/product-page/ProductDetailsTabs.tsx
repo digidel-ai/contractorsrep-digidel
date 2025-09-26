@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from "motion/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../ui/tabs";
 import { Star, Zap, Users } from "lucide-react";
-import { Product } from "../../../data/products";
-import { testimonials } from "../../../data/testimonials";
+import { Product } from "../../../data/products.ts";
+import { testimonials } from "../../../data/testimonials.ts";
 
 interface ProductDetailsTabsProps {
   product: Product;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Check } from "lucide-react";
-import { Product } from "../../../data/products";
+import { Product } from "../../../data/products.ts";
 
 interface ProductFeaturesProps {
   product: Product;

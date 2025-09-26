@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import { Button } from "../../ui/button";
 import { ShoppingCart, Heart, Share2, Truck, Shield, Clock } from "lucide-react";
-import { Product } from "../../../data/products";
+import { Product } from "../../../data/products.ts";
 
 interface ProductPurchaseSectionProps {
   product: Product;
